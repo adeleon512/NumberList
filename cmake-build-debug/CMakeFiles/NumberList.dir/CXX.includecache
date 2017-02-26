@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Adam/CLionProjects/NumberList/NumberList.h
+cstddef
+-
+
+C:/Users/Adam/CLionProjects/NumberList/NumberList_imp.cpp
+iostream
+-
+NumberList.h
+C:/Users/Adam/CLionProjects/NumberList/NumberList.h
+
+C:/Users/Adam/CLionProjects/NumberList/main.cpp
+iostream
+-
+NumberList.h
+C:/Users/Adam/CLionProjects/NumberList/NumberList.h
+
